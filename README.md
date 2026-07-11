@@ -1,6 +1,4 @@
 # b-safe-project-app
- 
-# B-Safe Project App
 
 CI/CD pipeline (Jenkins + Docker + AWS EC2) that automates build, test, and deployment
 of a containerized app to a private Docker Hub registry.
