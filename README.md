@@ -20,3 +20,5 @@ of a containerized app to a private Docker Hub registry.
 
 - 2026-07-12 First full Jenkins pipeline run: SUCCESS. All stages passed(Checkout → Build → Test → Push → Deploy → Verify). Image pushed to Docker
   Hub as okile/b-safe-project-app:build-1. App verified reachable via curl on port 8090.
+
+- 2026-07-12 Verified deployed app externally at http://100.31.69.43:8090 — confirmed reachable from public internet, not just localhost. All steps complete.
