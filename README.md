@@ -26,3 +26,7 @@ of a containerized app to a private Docker Hub registry.
 ## Final Evidence
 Full documentation of screenshots (Jenkins, Docker Hub, deployed app, terminal outputs)
 is available here: [Capstone_assessment_steps.pdf](./docs/evidence/Capstone_assessment_steps.pdf)
+
+
+## Final Specification Document
+[View the full specification document](./docs/B-Safe_Final_Specification_Document.pdf)
