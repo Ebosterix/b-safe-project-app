@@ -17,3 +17,6 @@ of a containerized app to a private Docker Hub registry.
 - 2026-07-12 Wrote smoke_test.sh — builds image, runs container, verifies HTTP 200 + page content, cleans up. Ran locally: PASS.
 
 - 2026-07-12 Created Jenkins credential `dockerhub-creds` (Docker Hub username + access token) for pipeline push stage.
+
+- 2026-07-12 First full Jenkins pipeline run: SUCCESS. All stages passed(Checkout → Build → Test → Push → Deploy → Verify). Image pushed to Docker
+  Hub as okile/b-safe-project-app:build-1. App verified reachable via curl on port 8090.
