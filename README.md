@@ -15,3 +15,5 @@ of a containerized app to a private Docker Hub registry.
 - 2026-07-12 Wrote Dockerfile (nginx:alpine base). Built and tested locally with Docker Desktop on port 8090 — confirmed app serves correctly at http://localhost:8090.
 
 - 2026-07-12 Wrote smoke_test.sh — builds image, runs container, verifies HTTP 200 + page content, cleans up. Ran locally: PASS.
+
+- 2026-07-12 Created Jenkins credential `dockerhub-creds` (Docker Hub username + access token) for pipeline push stage.
