@@ -22,3 +22,7 @@ of a containerized app to a private Docker Hub registry.
   Hub as okile/b-safe-project-app:build-1. App verified reachable via curl on port 8090.
 
 - 2026-07-12 Verified deployed app externally at http://100.31.69.43:8090 — confirmed reachable from public internet, not just localhost. All steps complete.
+
+## Final Evidence
+Full documentation of screenshots (Jenkins, Docker Hub, deployed app, terminal outputs)
+is available here: [Capstone_assessment_steps.pdf](./docs/evidence/Capstone_assessment_steps.pdf)
