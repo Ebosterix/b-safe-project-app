@@ -11,3 +11,5 @@ of a containerized app to a private Docker Hub registry.
 - 2026-07-11 Configured Jenkins node `b-safe-project-node` as SSH agent on EC2 (Docker-node instance). Resolved initial connection failure caused by trailing whitespace in "Remote root directory" field.
 
 - 2026-07-11 Installed Docker Pipeline plugin in Jenkins to enable containerized build/push stages in the pipeline.
+
+- 2026-07-12 Wrote Dockerfile (nginx:alpine base). Built and tested locally with Docker Desktop on port 8090 — confirmed app serves correctly at http://localhost:8090.
